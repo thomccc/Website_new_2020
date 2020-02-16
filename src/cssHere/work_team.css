@@ -1,0 +1,33 @@
+#team-project h5{
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 80px;
+  color: #EDDCDC;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+
+
+}
+
+#team-project p{
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+  color: #EDDCDC;
+  padding-left: 20px;
+}
+
+#team-project img{
+  object-fit: contain;
+  width:100%;
+  height: 45vh;
+}
+
+#team-project video {
+  border: 2px black;
+
+}
+
