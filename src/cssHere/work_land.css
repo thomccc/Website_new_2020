@@ -1,0 +1,35 @@
+#center-name {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  text-align: center;
+
+}
+
+
+li {
+  display:inline;
+  cursor: pointer;
+  padding: 10px;
+
+}
+
+#work-word {
+  vertical-align:middle;
+  text-decoration: none;
+  color: #EDDCDC;
+}
+
+#work-word:hover {
+  text-decoration: underline;
+  color: #3A4F41;
+
+}
+
+.list-group-item {
+  border: none;
+}

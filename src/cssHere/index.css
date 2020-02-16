@@ -1,0 +1,57 @@
+.nav-link {
+  text-decoration: none;
+  color: #EDDCDC;
+  -webkit-text-stroke: 0px #EDDCDC;
+
+}
+
+body {
+  height: 120vh;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+
+.nav-item {
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+
+}
+
+.footer {
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
