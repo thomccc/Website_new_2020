@@ -76,5 +76,7 @@
     "modernizr-config.json",
     "README.md"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
 }
