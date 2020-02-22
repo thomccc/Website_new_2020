@@ -1,5 +1,47 @@
+#header {
+  text-align: center;
+  font-family: futura-pt-bold, sans-serif;
+font-weight: 700;
+font-style: italic;
+  color: #EDDCDC;
+  margin-top: -155px;
+}
+#header a {
+  text-decoration: none;
+  font-size: 160px;
+    color: #EDDCDC;
+    margin: -30px;
+}
+
+#header a:hover {
+    text-decoration: underline;
+
+}
+#header h1 {
+  font-size: 120px;
+      margin: -20px;
+
+
+}
+
+
+@media (max-width: 640px) {
+  #header {
+    margin-top:-120px;
+  }
+  #header h1 {
+   font-size: 60px;
+   margin:0px;
+  }
+  #header a {
+   font-size: 100px;
+   margin:0px;
+  }
+
+}
+
 .container {
-  margin-top: 100px;
+  margin-top: 105px;
 }
 nav {
    z-index: 100;
@@ -10,7 +52,7 @@ nav {
   text-decoration: underline;
 }
 .navbar {
-  background:rgba(0,0,0,0);
+  background:white;
 }
 
 .navbar-light .navbar-toggler {
@@ -30,8 +72,18 @@ nav {
   background-size: cover;
     background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
   margin: 0px;
+}
+
+
+
+@media (max-width: 640px) {
+  .banner {
+    height:120vh;
+  }
+
+
 }
 
 .col-6 {
@@ -48,6 +100,8 @@ body {
   height: 80vh;
 
 }
+
+
 
 .nav-link {
   text-decoration: none;
@@ -78,7 +132,6 @@ body {
 }
 
 .footer {
-  margin-top: 10px;
   background:#EDDCDC;
   opacity: 1;
   display: flex;
@@ -90,8 +143,14 @@ body {
   padding: 0px 50px;
   font-family: neue-haas-grotesk-display, sans-serif;
 font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .footer {
+   font-size: 12px;
+  }
 }
 .footer-links {
   display: flex;
