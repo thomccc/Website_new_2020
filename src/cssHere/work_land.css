@@ -33,6 +33,12 @@ li {
 
 }
 
+@media (max-width: 640px) {
+  #center-name a {
+   font-size: 45px;
+  }
+}
+
 .list-group-item {
   border: none;
 }
