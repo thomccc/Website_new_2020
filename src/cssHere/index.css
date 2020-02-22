@@ -80,7 +80,7 @@ nav {
 
 @media (max-width: 640px) {
   .banner {
-    height:110vh;
+    height:100vh;
   }
 
 
@@ -101,6 +101,11 @@ body {
 
 }
 
+@media (max-width: 640px) {
+  body {
+   height: 95vh;
+  }
+}
 
 
 .nav-link {
