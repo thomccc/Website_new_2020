@@ -8,6 +8,12 @@
   line-height: 0.9;
 }
 
+@media (max-width: 640px) {
+  #title-work {
+   font-size:70px;
+   margin-top: 15px;
+  }
+}
 
 
 #intro-work{
@@ -20,6 +26,13 @@
   padding-bottom: 20px;
   line-height: 1;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  #intro-work {
+   font-size:35px;
+
+  }
 }
 
 #print {
